@@ -1,7 +1,7 @@
 # LiveCode.plist
 
 
-**Attribution:* 2014-11-25: History: This plist was adapted from the LiveScript.plist (a completely different language use as a kind of "IDE" for Javascript) by Ben Rubinstein. Brahmanathaswami added some folding features. He also set this up as a separate public repository.
+**Attribution:** 2014-11-25: History: This plist was adapted from the LiveScript.plist (a completely different language use as a kind of "IDE" for Javascript) by Ben Rubinstein. Brahmanathaswami added some folding features. He also set this up as a separate public repository.
 
 **CAVEATS** 
 
