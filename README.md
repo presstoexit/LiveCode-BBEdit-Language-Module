@@ -14,5 +14,7 @@ Put the LiveCode.plist into  /Application Support/BBEdit/Language Modules. Resta
 3. Note that when folding a node the "end ###" part of the command disappears also into the fold. It would be nice to fix this so that we are not having the anxiety that the fold was "greedy" and collapsed more than it should. Ideally we could see
 
 on myCommand
+
  ...... # many folded statements here
+ 
 end myCommand
