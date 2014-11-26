@@ -1,296 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plist version="1.0">
 	<dict>
-		<key>
-			BBEditDocumentType 
-		</key>
-		<string>
-			CodelessLanguageModule 
-		</string>
-		<key>
-			com.barebones.DocumentType 
-		</key>
-		<string>
-			CodelessLanguageModule 
-		</string>
-		<key>
-			BBLMLanguageDisplayName 
-		</key>
-		<string>
-<![CDATA[LiveCode]]> 
-		</string>
-		<key>
-			BBLMLanguageCode 
-		</key>
-		<string>
-<![CDATA[LvCd]]> 
-		</string>
-		<key>
-			BBLMColorsSyntax 
-		</key>
+		<key>BBEditDocumentType</key>
+		<string>CodelessLanguageModule</string>
+		<key>com.barebones.DocumentType</key>
+		<string>CodelessLanguageModule</string>
+		<key>BBLMLanguageDisplayName</key>
+		<string>LiveCode</string>
+		<key>BBLMLanguageCode</key>
+		<string>LvCd</string>
+		<key>BBLMColorsSyntax</key>
 		<true />
-		<key>
-			BBLMScansFunctions 
-		</key>
+		<key>BBLMScansFunctions</key>
 		<true />
-		<key>
-			BBLMIsCaseSensitive 
-		</key>
+		<key>BBLMIsCaseSensitive</key>
 		<false />
-		<key>
-			BBLMKeywordList 
-		</key>
+		<key>BBLMKeywordList</key>
 		<array>
-			<string>
-<![CDATA[if]]> 
-			</string>
-				<string>
-<![CDATA[command]]> 
-			</string>
-				<string>
-<![CDATA[function]]> 
-			</string>
-				<string>
-<![CDATA[end]]> 
-			</string>
-			<string>
-<![CDATA[for]]> 
-			</string>
-			<string>
-<![CDATA[in]]> 
-			</string>
-			<string>
-<![CDATA[then]]> 
-			</string>
-			<string>
-<![CDATA[else]]> 
-			</string>
-			<string>
-<![CDATA[or]]> 
-			</string>
-			<string>
-<![CDATA[of]]> 
-			</string>
-			<string>
-<![CDATA[while]]> 
-			</string>
-			<string>
-<![CDATA[until]]> 
-			</string>
-			<string>
-<![CDATA[do]]> 
-			</string>
-			<string>
-<![CDATA[try]]> 
-			</string>
-			<string>
-<![CDATA[catch]]> 
-			</string>
-			<string>
-<![CDATA[is]]> 
-			</string>
-			<string>
-<![CDATA[isnt]]> 
-			</string>
-			<string>
-<![CDATA[unless]]> 
-			</string>
-			<string>
-<![CDATA[and]]> 
-			</string>
-			<string>
-<![CDATA[not]]> 
-			</string>
-			<string>
-<![CDATA[class]]> 
-			</string>
-			<string>
-<![CDATA[extends]]> 
-			</string>
-			<string>
-<![CDATA[super]]> 
-			</string>
-			<string>
-<![CDATA[new]]> 
-			</string>
-			<string>
-<![CDATA[this]]> 
-			</string>
-			<string>
-<![CDATA[switch]]> 
-			</string>
-			<string>
-<![CDATA[when]]> 
-			</string>
-			<string>
-<![CDATA[finally]]> 
-			</string>
-			<string>
-<![CDATA[typeof]]> 
-			</string>
-			<string>
-<![CDATA[void]]> 
-			</string>
-			<string>
-<![CDATA[to]]> 
-			</string>
-			<string>
-<![CDATA[til]]> 
-			</string>
-			<string>
-<![CDATA[by]]> 
-			</string>
-			<string>
-				private 
-			</string>
-			<string>
-				function 
-			</string>
-			<string>
-				put 
-			</string>
-			<string>
-				get 
-			</string>
-			<string>
-				into 
-			</string>
-			<string>
-				after 
-			</string>
-			<string>
-				before 
-			</string>
-			<string>
-				return 
-			</string>
-			<string>
-				local 
-			</string>
-			<string>
-				global 
-			</string>
-			<string>
-				constant 
-			</string>
-			<string>
-<![CDATA[->]]> 
-			</string>
-			<string>
-<![CDATA[-->]]> 
-			</string>
-			<string>
-<![CDATA[~>]]> 
-			</string>
-			<string>
-<![CDATA[~~>]]> 
-			</string>
-			<string>
-<![CDATA[=>]]> 
-			</string>
+			<string>if</string>
+			<string>command</string>
+			<string>function</string>
+			<string>end</string>
+			<string>for</string>
+			<string>in</string>
+			<string>then</string>
+			<string>else</string>
+			<string>or</string>
+			<string>of</string>
+			<string>while</string>
+			<string>until</string>
+			<string>do</string>
+			<string>try</string>
+			<string>catch</string>
+			<string>is</string>
+			<string>isnt</string>
+			<string>unless</string>
+			<string>and</string>
+			<string>not</string>
+			<string>class</string>
+			<string>extends</string>
+			<string>super</string>
+			<string>new</string>
+			<string>this</string>
+			<string>switch</string>
+			<string>when</string>
+			<string>finally</string>
+			<string>typeof</string>
+			<string>void</string>
+			<string>to</string>
+			<string>til</string>
+			<string>by</string>
+			<string>private</string>
+			<string>function</string>
+			<string>put</string>
+			<string>get</string>
+			<string>into</string>
+			<string>after</string>
+			<string>before</string>
+			<string>return</string>
+			<string>local</string>
+			<string>global</string>
+			<string>constant</string>
+			<string><![CDATA[->]]></string>
+			<string><![CDATA[-->]]></string>
+			<string><![CDATA[~>]]></string>
+			<string><![CDATA[~~>]]></string>
+			<string><![CDATA[=>]]></string>
 		</array>
-		<key>
-			BBLMPredefinedNameList 
-		</key>
+		<key>BBLMPredefinedNameList</key>
 		<array>
-			<string>
-<![CDATA[true]]> 
-			</string>
-			<string>
-<![CDATA[false]]> 
-			</string>
-			<string>
-<![CDATA[null]]> 
-			</string>
-			<string>
-<![CDATA[@]]> 
-			</string>
+			<string>true</string>
+			<string>false</string>
+			<string>null</string>
+			<string>@</string>
 		</array>
-		<key>
-			BBLMSuffixMap 
-		</key>
+		<key>BBLMSuffixMap</key>
 		<array>
 			<dict>
-				<key>
-					BBLMLanguageSuffix 
-				</key>
-				<string>
-<![CDATA[.lc]]> 
-				</string>
+				<key>BBLMLanguageSuffix</key>
+				<string>.lc</string>
 			</dict>
 		</array>
-		<key>
-			BBLMCommentLineDefault 
-		</key>
-		<string>
-<![CDATA[#]]> 
-		</string>
-		<key>
-			Language Features 
-		</key>
+		<key>BBLMCommentLineDefault</key>
+		<string>#</string>
+		<key>Language Features</key>
 		<dict>
-			<key>
-				Identifier and Keyword Character Class 
-			</key>
-			<string>
-<![CDATA[0-9A-Z_a-z\@\=\-\>\?]]> 
+			<key>Identifier and Keyword Character Class</key>
+			<string><![CDATA[0-9A-Z_a-z\@\=\-\>\?]]> 
 			</string>
-			<key>
-				Comment Pattern 
-			</key>
-			<string>
-<![CDATA[(?x:
-(\#.*?$) |
-(//.*?$) |
-(--.*?$) |
-(?s:^\s*\/\*.+?\s*\*\/)
-)
-]]> 
-			</string>
-			<key>
-				String Pattern 
-			</key>
-			<string>
-<![CDATA[
-(?x:
-("(\\"|[^"\r]|\\\r)*") | (?# Double-quote)
-('(\\'|[^'\r]|\\\r)*') | (?# Single-quote)
-(?s: (?# Here-document)
-<<-?(?P<delim>\w+)
-.*?
-(?P=delim)
-)
-)
-]]> 
-			</string>
-			<key>
-				Function Pattern 
-			</key>
-			<string>
-<![CDATA[
-(?sx:^
-(?P<function>(private\s)?(on|command|function)\s+(?P<function_name>[a-zA-Z0-9_@]+).*
-^end\s(?P=function_name))
-)
-]]> 
-			</string>
-		</dict>
-		<key>
-			Language Features 
-		</key>
-		<dict>
+			<key>Comment Pattern</key>
+			<string><![CDATA[(?x:
+					(\#.*?$) |
+					(//.*?$) |
+					(--.*?$) |
+					(?s:^\s*\/\*.+?\s*\*\/)
+					)
+					]]></string>
+			<key>String Pattern</key>
+			<string><![CDATA[
+						(?x:
+							("(\\"|[^"\r]|\\\r)*") | (?# Double-quote)
+							('(\\'|[^'\r]|\\\r)*') | (?# Single-quote)
+							(?s: (?# Here-document)
+								<<-?(?P<delim>\w+)
+								.*?
+								(?P=delim)
+							)
+						)
+						]]></string>
+			<key>Function Pattern</key>
+			<string><![CDATA[
+						(?sx:^
+							(?P<function>(private\s)?(on|command|function)\s+(?P<function_name>[a-zA-Z0-9_@]+).*
+								^end\s(?P=function_name))
+						)
+						]]></string>
 			<key>Open Statement Blocks</key>
-				<string>command</string>
-				<key>Open Statement Blocks</key>
-				<string>function</string>
-				<key>Open Statement Blocks</key>
-				<string>on</string>
-				<key>Open Statement Blocks</key>
-				<string>if</string>
-				<key>Open Statement Blocks</key>
-				<string>switch</string>
-				<key>Close Statement Blocks</key>
-				<string>end</string>
+			<string>command</string>
+			<key>Open Statement Blocks</key>
+			<string>function</string>
+			<key>Open Statement Blocks</key>
+			<string>on</string>
+			<key>Open Statement Blocks</key>
+			<string>if</string>
+			<key>Open Statement Blocks</key>
+			<string>switch</string>
+			<key>Close Statement Blocks</key>
+			<string>end</string>
 		</dict>
 	</dict>
 </plist>
