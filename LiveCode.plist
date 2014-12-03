@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+BBEdit Language Module for LiveCode
+
+Put this file in 
+   ~/Library/Application\ Support/BBEdit/Language\ Modules
+or equivalent.
+-->
 <plist version="1.0">
 	<dict>
 		<key>BBEditDocumentType</key>
@@ -48,7 +56,6 @@
 			<string>typeof</string>
 			<string>void</string>
 			<string>to</string>
-			<string>til</string>
 			<string>by</string>
 			<string>private</string>
 			<string>function</string>
@@ -57,7 +64,6 @@
 			<string>into</string>
 			<string>after</string>
 			<string>before</string>
-			<string>return</string>
 			<string>local</string>
 			<string>global</string>
 			<string>constant</string>
@@ -69,10 +75,47 @@
 		</array>
 		<key>BBLMPredefinedNameList</key>
 		<array>
-			<string>true</string>
+			<string>arrow</string>
+			<string>backslash</string>
+			<string>busy</string>
+			<string>colon</string>
+			<string>comma</string>
+			<string>CRLF</string>
+			<string>cross</string>
+			<string>done</string>
+			<string>down</string>
+			<string>eight</string>
+			<string>empty</string>
+			<string>EOF</string>
 			<string>false</string>
+			<string>five</string>
+			<string>formfeed</string>
+			<string>four</string>
+			<string>hand</string>
+			<string>help</string>
+			<string>iBeam</string>
+			<string>left</string>
+			<string>nine</string>
 			<string>null</string>
-			<string>@</string>
+			<string>one</string>
+			<string>pi</string>
+			<string>plus</string>
+			<string>quote</string>
+			<string>return</string>
+			<string>right</string>
+			<string>scrollbarFactor</string>
+			<string>seven</string>
+			<string>six</string>
+			<string>slash</string>
+			<string>space</string>
+			<string>tab</string>
+			<string>ten</string>
+			<string>three</string>
+			<string>true</string>
+			<string>two</string>
+			<string>up</string>
+			<string>watch</string>
+			<string>zero</string>
 		</array>
 		<key>BBLMSuffixMap</key>
 		<array>
@@ -86,8 +129,7 @@
 		<key>Language Features</key>
 		<dict>
 			<key>Identifier and Keyword Character Class</key>
-			<string><![CDATA[0-9A-Z_a-z\@\=\-\>\?]]> 
-			</string>
+			<string><![CDATA[0-9A-Z_a-z\@\=\-\>\?]]></string>
 			<key>Comment Pattern</key>
 			<string><![CDATA[(?x:
 					(\#.*?$) |
